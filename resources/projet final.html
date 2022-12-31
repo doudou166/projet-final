@@ -1,0 +1,136 @@
+
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projet final</title>
+    <link rel="stylesheet" href="./projet final_files/style.css">
+</head>
+
+<body>
+
+    <section class="section1">
+        <img src="./projet final_files/sygnet.png" alt="logo" height="50px" width="50px" style="position: relative;">
+    </section>
+    <nav>
+        <section class="section2">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html#"> HOME</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">ABOUT US</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">SERVICES</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">DEPARTMENTS</a></li>
+            </ul>
+
+            <!-- <div class="APPOINTMENT">
+    <p>APPOINTMENT</p>
+        </div>-->
+        </section>
+    </nav>
+    <div class="video">
+        <p>WELCOME <br> how can we help you!</p>
+        <video class="video1">
+            <source src="https://www.olathehealth.org/wp-content/themes/olathe/assets/images/Wings-Jan-2018.mp4" type="video/mp4" autoplay="" loop="" muted="" poster="https://www.olathehealth.org/wp-content/themes/olathe/assets/images/Dr.jpg" width="100%">
+        </video>
+    </div>
+    <div class="div1"></div>
+    <div class="div2">
+        <div><img src="./projet final_files/Building-Pic.jpg" alt="building" height="400px" width="500px">
+        </div>
+        <div class="description">
+            <h1 style="font-size: 20;">Planning for our Bright Future</h1>
+            <p>We are excited to announce Olathe Health has signed a Letter of Intent to join The University of Kansas
+                Health System. As one health system, Olathe Health and The University of Kansas Health System will
+                enhance
+                access to high-quality healthcare for patients across the region. To learn more, visit our link below.
+            </p>
+        </div>
+    </div>
+    <section class="section3">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<footer class="footer">
+    <section style="background-color: #0397d6; width: 100%; height: 50px; margin-top: 30px; display: flex; justify-content: center;text-align: center;">
+        <p>Interested in working with us? </p>
+        <p style="margin-left: 20px;"><a href="http://127.0.0.1:5500/index.html#" style="color: #fcb900;text-decoration: none;"> View our careers &gt;</a>
+        </p>
+    </section>
+
+    <section style="height: 120px; background-color: rgba(6,147,227,1);display: flex; justify-content:space-around ;">
+
+        <div class="divf1">
+            <h1>For patients</h1>
+                <p><a href="http://127.0.0.1:5500/index.html#" style="text-decoration: none;;"> Pay my bill</a></p>
+                <p><a href="http://127.0.0.1:5500/index.html#" style="text-decoration: none;">Find a doctor </a></p>
+        
+        </div>
+
+        <div class="divf1">
+            <h1>Explore</h1>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html#" style="text-decoration: none;">Videos</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#" style="text-decoration: none;">Blog</a></li>
+            </ul>
+        </div>
+        <div class="divf1">
+            <h1>Contact info</h1>
+            <p>contact us <br> 0955212211</p>
+            <div>
+            </div>
+        </div>
+    </section>
+    <hr style="margin: 0%; background-size: 0%; background-color: blue; ">
+    <div class="lastdiv" style="background-color: rgba(6,147,227,1); display: flex;justify-content: space-around;">
+        <p>NOTICE OF PRIVACY PRACTICES</p>
+        <p> TERMS OF USE</p>
+        <p>NOTICE OF NONDISCRIMINATION</p>
+        <p>COPYRIGHT © 2022. ALL RIGHTS RESERVED.</p>
+    </div>
+
+
+</footer>
+
+</body></html>

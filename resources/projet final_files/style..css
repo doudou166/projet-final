@@ -108,16 +108,8 @@ justify-content: center;
     justify-items: center;
 }
 
-.divf1 ul li{ 
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font-family: inherit;    
-}
 
-.lastdiv p {
+.lastdiv p{
     margin: 0.5rem;
     color: #004768;
     font-family: inherit;
