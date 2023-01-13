@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial;
-        /*Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/;
-    
+    /*Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    ;
+
     color: rgb(240, 240, 240);
     background-color: rgb(255, 255, 255);
 }
@@ -26,12 +27,12 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a :hover{
-    background-color: black ;
+nav ul li a :hover {
+    background-color: black;
 }
 
 .section1 {
-   margin-top: 10px;
+    margin-top: 10px;
     /*margin-left: 30px;*/
     display: flex;
     justify-content: center;
@@ -67,9 +68,7 @@ justify-content: center;
 
 .video {
     margin-top: 30px;
-    margin-left: 25px;
-    margin-right: 25px;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +88,7 @@ justify-content: center;
 
 .div2 {
     margin-top: 20px;
-    background-color:#fff;
+    background-color: #fff;
     margin-right: 25px;
     margin-left: 25px;
     display: flex;
@@ -108,13 +107,13 @@ justify-content: center;
     justify-items: center;
 }
 
-.divf1 ul li{ 
+.divf1 ul li {
     list-style: none;
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: inherit;    
+    font-family: inherit;
 }
 
 .lastdiv p {
@@ -126,3 +125,79 @@ justify-content: center;
     text-transform: uppercase;
 }
 
+/*contact part*/
+
+.contact {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: #333;
+    border-radius: 2%;
+    background-color:#0397d6 ;
+    width: 400px;
+    height: auto;
+}
+
+.cntactForm {
+    display: flex;
+    justify-content: center;
+    color: #333;
+    width: 40%;
+    padding: 40%;
+    background: #fff;
+}
+
+.contactForm h1 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0px;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+    color: #fff;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox2  input {
+    width: 62px;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
