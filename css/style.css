@@ -4,10 +4,11 @@ body {
     font-family: Arial;
     /*Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
     ;
-
     color: rgb(240, 240, 240);
     background-color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 900px) and (min-width:500px) {}
 
 nav {
     background-color: #0397d6;
@@ -18,7 +19,8 @@ nav {
     /*justify-content: space-between;*/
 }
 
-nav ul li a {
+nav ul li a,
+.button a {
     text-decoration: none;
     color: #fff;
     display: block;
@@ -27,8 +29,26 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a :hover {
-    background-color: black;
+nav ul li :hover {
+    color: aqua;
+}
+
+.section2 {
+    display: flex;
+}
+
+.button {
+    margin-left: 100px;
+    align-items: center;
+    float: right;
+    padding: 9px 25px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #fcb900;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0, 3s ease 0s;
 }
 
 .section1 {
@@ -47,6 +67,7 @@ nav ul li {
     display: inline-block;
     line-height: 60 px;
     margin: 10px;
+    align-items: center;
 }
 
 
@@ -67,7 +88,7 @@ justify-content: center;
 }*/
 
 .video {
-    margin-top: 30px;
+    margin-top: 40px;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -107,6 +128,14 @@ justify-content: center;
     justify-items: center;
 }
 
+.description2 {
+    margin-top: 130px;
+}
+
+.checkIt a :hover {
+    color: #fcb900;
+}
+
 .divf1 ul li {
     list-style: none;
     margin: 0;
@@ -130,17 +159,14 @@ justify-content: center;
 .contact {
     margin-top: 30px;
     display: flex;
-    justify-content: center;
     color: #333;
-    border-radius: 2%;
-    background-color:#0397d6 ;
+
+    background-color: #0397d6;
     width: 400px;
     height: auto;
 }
 
 .cntactForm {
-    display: flex;
-    justify-content: center;
     color: #333;
     width: 40%;
     padding: 40%;
@@ -148,7 +174,7 @@ justify-content: center;
 }
 
 .contactForm h1 {
-    font-size: 30px;
+    font-size: 20px;
     color: #333;
     font-weight: 500;
 }
@@ -182,16 +208,16 @@ justify-content: center;
     color: #666;
 }
 
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span {
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
     color: #fff;
     font-size: 12px;
     transform: translateY(-20px);
 }
 
-.contactForm .inputBox2  input {
+.contactForm .inputBox2 input {
     width: 62px;
     background-color: #00bcd4;
     border: none;
@@ -199,5 +225,5 @@ justify-content: center;
     margin-bottom: 10px;
     cursor: pointer;
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
 }
